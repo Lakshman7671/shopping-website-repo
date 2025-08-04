@@ -1,0 +1,160 @@
+   
+h1,h2{
+  background-color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f3f3f3;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    padding: 6px;
+    width: 300px;
+  }
+  
+  .search-bar button {
+    padding: 6px;
+  }
+  
+  nav {
+    background-color:grey;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 120px;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+  
+  .product-card {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f0f0f0;
+    }
+
+    .gallery-container {
+      width: 100%;
+      height: 200px;
+      margin: auto;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex-wrap: wrap;
+      flex-direction: row;
+ 
+    }
+
+    .main-image {
+        width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      transition: 0.3s;
+      flex-wrap: wrap;
+      flex-direction: row;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .thumbnails {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .thumbnails img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border 0.3s;
+      flex-wrap: wrap;
+      flex-direction: row;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .thumbnails img:hover {
+      border: 2px solid #007bff;
+    }
+ .main-box {
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+    .main-box:hover {
+      transform: scale(1.02);
+    }
+    .main-box:hover {
+  transform: scale(1.02);
+}
+
+   .main-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  
+  
+    
+
+    
+            
+        
+       
